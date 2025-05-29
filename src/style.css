@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+main {  
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Trades Crops Crops Upgrades"
+    "Trades Crops Crops Upgrades"
+    "Trades Crops Crops Upgrades"
+    ". Counter Counter .";
+}
+
+.Crops { grid-area: Crops; }
+
+.Trades { grid-area: Trades; }
+
+.Upgrades { grid-area: Upgrades; }
+
+.Counter { grid-area: Counter; }

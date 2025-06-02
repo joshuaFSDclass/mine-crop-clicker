@@ -13,7 +13,9 @@ main {
     ". Counter Counter .";
 }
 
-.Crops { grid-area: Crops; }
+.Crops { grid-area: Crops; 
+background-image: url("/src/images/minecraft\ grass\ .webp");
+}
 
 .Trades { grid-area: Trades; }
 

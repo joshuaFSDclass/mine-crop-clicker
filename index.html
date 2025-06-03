@@ -13,7 +13,7 @@
   <main class="w-screen h-screen">
 
     <div class="Crops bg-amber-100 border-amber-800  border-y-6 flex justify-center ">
-      <button class="cursor-pointer text-4xl text-center mt-0.5 text-amber-800  p-4 rounded-2xl">
+      <button onclick ="addPoint(1)" class="cursor-pointer text-4xl mb-100 mt-0.5 text-amber-800  p-4 rounded-2xl">
         Reap the crops
       </button>
     </div>
@@ -34,38 +34,46 @@
         </button>
       </div>
     </div>
-
-    <div class="Upgrades bg-amber-200 border-amber-800 w-20 border-6 grid">
-      <div>
-        <button>
-          <img src="src/images/wooden hoe.png" alt="wooden hoe">
-        </button>
-        <button>
-          <img src="src/images/stones hoe.png" alt="ston hoe">
-        </button>
-        <button>
-          <img src="src/images/iron hoe.png" alt="iron hoe">
-        </button>
-        <button>
-          <img src="src/images/gold hoe.png" alt="gold hoe">
-        </button>
-        <button>
-          <img src="src/images/diamond hoe.png" alt="diamond hoe">
-        </button>
-        <button>
-          <img src="src/images/Bone_Meal_JE3_BE3.webp" alt="bone meal">
-        </button>
+<h1>
+  emeralds
+</h1>
+    <div class="Upgrades bg-amber-200 border-amber-800  border-6 grid w-50">
+      <div class=" text-center flex w-20 ">
+        <img src="/src/images/Beetroot_JE2_BE2.webp" alt="beets">
+        <p>
+          0
+        </p>
       </div>
-
+      <hr>
+      <div class=" text-center flex w-20">
+        <img src="/src/images/Potato_JE3_BE2.webp" alt="beets">
+        <p>
+          0
+        </p>
+      </div>
+      <hr>
+      <div class=" text-center flex w-20">
+        <img src="/src/images/wheat-minecraft.jpg" alt="beets">
+        <p>
+          0
+        </p>
+      </div>
+      <hr>
+      <div class=" text-center flex w-20">
+        <img src="/src/images/Carrot_JE3_BE2.webp" alt="beets">
+        <p>
+          0
+        </p>
+      </div>
     </div>
     <div class="Counter bg-green-700 items-center flex justify-center border-x-6 border-amber-800">
-      <h2 class=" text-4xl text-center mt-0.5 text-green-700  bg-amber-200 p-4 rounded-2xl ">
+      <h2 id= "counter" class=" text-4xl text-center mt-0.5 text-green-700  bg-amber-200 p-4 rounded-2xl ">
         COUNTER
       </h2>
 
     </div>
   </main>
-  <script type="module" src="/src/main.js"></script>
+  <script src="/src/main.js"></script>
 </body>
 
 </html>

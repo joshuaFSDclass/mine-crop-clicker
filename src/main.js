@@ -1,9 +1,14 @@
-let points = 0
+let beats = 0
+
 function addPoint() {
-    points = points + 1
-    console.log('points')
-    document.getElementById("counter").innerText = "" + points ;
+    beats = beats + 1
+    console.log(beats)
+    document.getElementById("counter").innerText = "CROPS " + beats ;
 }
-function buyBeetRoot(){
-    if 
+function getEmraldFromBeats() {
+ if (beats = 15){
+    
+ }else{
+    alert("you broke not enough for beets")
+ }
 }
